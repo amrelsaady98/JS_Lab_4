@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title></title>
+  <link href="css/style.css" rel="stylesheet">
+  <meta content="" name="description">
+
+  <meta content="" property="og:title">
+  <meta content="" property="og:type">
+  <meta content="" property="og:url">
+  <meta content="" property="og:image">
+  <meta content="" property="og:image:alt">
+
+  <link href="/favicon.ico" rel="icon" sizes="any">
+  <link href="/icon.svg" rel="icon" type="image/svg+xml">
+  <link href="icon.png" rel="apple-touch-icon">
+
+  <link href="site.webmanifest" rel="manifest">
+  <meta content="#fafafa" name="theme-color">
+</head>
+
+<body>
+
+<div class="container">
+  <input id="text-input" type="text">
+  <div class="login-form-container">
+    <form id="signup-form" method="GET" action="pages/user_dashboard.html">
+      <div class="input-container">
+        <input id="user-name-input" name="user-name" placeholder="Full Name" required type="text"/>
+      </div>
+      <div class="input-container">
+        <input id="email-input" name="email" placeholder="Email" required type="text"/>
+      </div>
+      <div class="input-container">
+        <input id="password-input" placeholder="Enter Password" required type="password"/>
+      </div>
+      <div class="input-container">
+        <input id="repeat-password-input" placeholder="Reenter Password" required
+               type="password"/>
+      </div>
+      <div class="input-container">
+        <input id="terms-checkbox" type="checkbox"/><a HREF="">I accept the terms and conditions</a>
+      </div>
+
+    </form>
+    <button id="login-form-submit" style="display: inline-block; padding: 8px;">Sign up</button>
+  </div>
+  <div class="rate-container">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5"/>
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4"/>
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3"/>
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2"/>
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1"/>
+      <label for="star1" title="text">1 star</label>
+    </div>
+  </div>
+
+  <div class="gallery-container">
+    <img src="img/img-1.jpg" class="image" alt="img" width="20%">
+    <img src="img/img-1.jpg" class="image" alt="img" width="20%">
+    <img src="img/img-1.jpg" class="image" alt="img" width="20%">
+    <img src="img/img-1.jpg" class="image" alt="img" width="20%">
+  </div>
+</div>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
